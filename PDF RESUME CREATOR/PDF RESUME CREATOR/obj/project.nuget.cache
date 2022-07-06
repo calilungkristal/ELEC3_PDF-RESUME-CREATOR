@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qUOrIxYNjRzwnFobHDYo4XFHxGfQyGL/9uUhdNvJrQGuxR+N3p8ggrI0Fc/UE6tcuUPDuK2mgYge1grM/gQt/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\5th Year\\2ND SEM\\ELECTIVE 3\\A4_PDF RESUME CREATOR\\PDF RESUME CREATOR\\PDF RESUME CREATOR\\PDF RESUME CREATOR.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PDF_RESUME_CREATOR</RootNamespace>
+    <StartupObject>PDF_RESUME_CREATOR.Form1</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\PDF RESUME CREATOR.AssemblyInfo.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp3.1\PDF RESUME CREATOR.designer.deps.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\PDF RESUME CREATOR.designer.runtimeconfig.json" />
+    <Content Include="obj\PDF RESUME CREATOR.vbproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp3.1\PDF RESUME CREATOR.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\PDF RESUME CREATOR.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\PDF RESUME CREATOR.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\netcoreapp3.1\PDF RESUME CREATOR.vbproj.AssemblyReference.cache" />
+    <None Include="obj\PDF RESUME CREATOR.vbproj.nuget.g.props" />
+    <None Include="obj\PDF RESUME CREATOR.vbproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
