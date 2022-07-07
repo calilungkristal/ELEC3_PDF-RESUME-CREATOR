@@ -38,14 +38,14 @@ Partial Class Form1
         Me.panelPersonalInformation = New System.Windows.Forms.Panel()
         Me.lblProfile = New System.Windows.Forms.Label()
         Me.panelWorkExperience = New System.Windows.Forms.Panel()
-        Me.textBoxYear1 = New System.Windows.Forms.TextBox()
+        Me.textBoxYear = New System.Windows.Forms.TextBox()
         Me.lblYear = New System.Windows.Forms.Label()
-        Me.textBoxDefofJob1 = New System.Windows.Forms.TextBox()
+        Me.textBoxDefofJob = New System.Windows.Forms.TextBox()
         Me.lblDefofJob1 = New System.Windows.Forms.Label()
-        Me.textBoxCompany1 = New System.Windows.Forms.TextBox()
+        Me.textBoxCompany = New System.Windows.Forms.TextBox()
         Me.lblCompany1 = New System.Windows.Forms.Label()
         Me.lblWorkExperience = New System.Windows.Forms.Label()
-        Me.textBoxPosition1 = New System.Windows.Forms.TextBox()
+        Me.textBoxPosition = New System.Windows.Forms.TextBox()
         Me.lblPosition1 = New System.Windows.Forms.Label()
         Me.panelSkills = New System.Windows.Forms.Panel()
         Me.textBoxSkills5 = New System.Windows.Forms.TextBox()
@@ -105,9 +105,9 @@ Partial Class Form1
         '
         Me.textBoxName.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxName.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxName.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.textBoxName.Location = New System.Drawing.Point(294, 51)
-        Me.textBoxName.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxName.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxName.Location = New System.Drawing.Point(294, 54)
+        Me.textBoxName.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxName.Multiline = True
         Me.textBoxName.Name = "textBoxName"
         Me.textBoxName.Size = New System.Drawing.Size(400, 35)
@@ -116,7 +116,7 @@ Partial Class Form1
         'lblName
         '
         Me.lblName.AutoSize = True
-        Me.lblName.Location = New System.Drawing.Point(208, 60)
+        Me.lblName.Location = New System.Drawing.Point(208, 63)
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(47, 18)
         Me.lblName.TabIndex = 4
@@ -125,7 +125,7 @@ Partial Class Form1
         'lblProfession
         '
         Me.lblProfession.AutoSize = True
-        Me.lblProfession.Location = New System.Drawing.Point(208, 109)
+        Me.lblProfession.Location = New System.Drawing.Point(208, 112)
         Me.lblProfession.Name = "lblProfession"
         Me.lblProfession.Size = New System.Drawing.Size(77, 18)
         Me.lblProfession.TabIndex = 5
@@ -135,9 +135,9 @@ Partial Class Form1
         '
         Me.textBoxProfession.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxProfession.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxProfession.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.textBoxProfession.Location = New System.Drawing.Point(294, 100)
-        Me.textBoxProfession.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxProfession.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxProfession.Location = New System.Drawing.Point(294, 103)
+        Me.textBoxProfession.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxProfession.Multiline = True
         Me.textBoxProfession.Name = "textBoxProfession"
         Me.textBoxProfession.Size = New System.Drawing.Size(400, 35)
@@ -156,9 +156,9 @@ Partial Class Form1
         '
         Me.textBoxEmail.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxEmail.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxEmail.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxEmail.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxEmail.Location = New System.Drawing.Point(294, 149)
-        Me.textBoxEmail.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxEmail.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxEmail.Multiline = True
         Me.textBoxEmail.Name = "textBoxEmail"
         Me.textBoxEmail.Size = New System.Drawing.Size(400, 35)
@@ -177,12 +177,12 @@ Partial Class Form1
         '
         Me.textBoxContactNo.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxContactNo.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxContactNo.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxContactNo.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxContactNo.Location = New System.Drawing.Point(294, 247)
-        Me.textBoxContactNo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxContactNo.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxContactNo.Multiline = True
         Me.textBoxContactNo.Name = "textBoxContactNo"
-        Me.textBoxContactNo.Size = New System.Drawing.Size(400, 35)
+        Me.textBoxContactNo.Size = New System.Drawing.Size(245, 35)
         Me.textBoxContactNo.TabIndex = 10
         '
         'lblAddress
@@ -198,9 +198,9 @@ Partial Class Form1
         '
         Me.textBoxAddress.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxAddress.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxAddress.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxAddress.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxAddress.Location = New System.Drawing.Point(294, 198)
-        Me.textBoxAddress.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxAddress.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxAddress.Multiline = True
         Me.textBoxAddress.Name = "textBoxAddress"
         Me.textBoxAddress.Size = New System.Drawing.Size(400, 35)
@@ -212,12 +212,12 @@ Partial Class Form1
         Me.panelPersonalInformation.AccessibleName = ""
         Me.panelPersonalInformation.BackColor = System.Drawing.Color.LightGoldenrodYellow
         Me.panelPersonalInformation.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.panelPersonalInformation.Controls.Add(Me.textBoxName)
         Me.panelPersonalInformation.Controls.Add(Me.lblProfile)
         Me.panelPersonalInformation.Controls.Add(Me.Roundpb)
         Me.panelPersonalInformation.Controls.Add(Me.textBoxAddress)
         Me.panelPersonalInformation.Controls.Add(Me.btnUploadPhoto)
         Me.panelPersonalInformation.Controls.Add(Me.lblAddress)
-        Me.panelPersonalInformation.Controls.Add(Me.textBoxName)
         Me.panelPersonalInformation.Controls.Add(Me.textBoxContactNo)
         Me.panelPersonalInformation.Controls.Add(Me.lblName)
         Me.panelPersonalInformation.Controls.Add(Me.lblContactNumber)
@@ -248,14 +248,14 @@ Partial Class Form1
         Me.panelWorkExperience.AccessibleName = ""
         Me.panelWorkExperience.BackColor = System.Drawing.Color.LightGoldenrodYellow
         Me.panelWorkExperience.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.panelWorkExperience.Controls.Add(Me.textBoxYear1)
+        Me.panelWorkExperience.Controls.Add(Me.textBoxYear)
         Me.panelWorkExperience.Controls.Add(Me.lblYear)
-        Me.panelWorkExperience.Controls.Add(Me.textBoxDefofJob1)
+        Me.panelWorkExperience.Controls.Add(Me.textBoxDefofJob)
         Me.panelWorkExperience.Controls.Add(Me.lblDefofJob1)
-        Me.panelWorkExperience.Controls.Add(Me.textBoxCompany1)
+        Me.panelWorkExperience.Controls.Add(Me.textBoxCompany)
         Me.panelWorkExperience.Controls.Add(Me.lblCompany1)
         Me.panelWorkExperience.Controls.Add(Me.lblWorkExperience)
-        Me.panelWorkExperience.Controls.Add(Me.textBoxPosition1)
+        Me.panelWorkExperience.Controls.Add(Me.textBoxPosition)
         Me.panelWorkExperience.Controls.Add(Me.lblPosition1)
         Me.panelWorkExperience.Location = New System.Drawing.Point(23, 338)
         Me.panelWorkExperience.Name = "panelWorkExperience"
@@ -263,17 +263,17 @@ Partial Class Form1
         Me.panelWorkExperience.Size = New System.Drawing.Size(722, 256)
         Me.panelWorkExperience.TabIndex = 14
         '
-        'textBoxYear1
+        'textBoxYear
         '
-        Me.textBoxYear1.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.textBoxYear1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxYear1.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.textBoxYear1.Location = New System.Drawing.Point(127, 198)
-        Me.textBoxYear1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.textBoxYear1.Multiline = True
-        Me.textBoxYear1.Name = "textBoxYear1"
-        Me.textBoxYear1.Size = New System.Drawing.Size(567, 35)
-        Me.textBoxYear1.TabIndex = 26
+        Me.textBoxYear.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.textBoxYear.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.textBoxYear.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxYear.Location = New System.Drawing.Point(127, 198)
+        Me.textBoxYear.Margin = New System.Windows.Forms.Padding(0)
+        Me.textBoxYear.Multiline = True
+        Me.textBoxYear.Name = "textBoxYear"
+        Me.textBoxYear.Size = New System.Drawing.Size(245, 35)
+        Me.textBoxYear.TabIndex = 26
         '
         'lblYear
         '
@@ -284,17 +284,17 @@ Partial Class Form1
         Me.lblYear.TabIndex = 25
         Me.lblYear.Text = "Year(From-To):"
         '
-        'textBoxDefofJob1
+        'textBoxDefofJob
         '
-        Me.textBoxDefofJob1.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.textBoxDefofJob1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxDefofJob1.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.textBoxDefofJob1.Location = New System.Drawing.Point(127, 149)
-        Me.textBoxDefofJob1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.textBoxDefofJob1.Multiline = True
-        Me.textBoxDefofJob1.Name = "textBoxDefofJob1"
-        Me.textBoxDefofJob1.Size = New System.Drawing.Size(567, 35)
-        Me.textBoxDefofJob1.TabIndex = 18
+        Me.textBoxDefofJob.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.textBoxDefofJob.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.textBoxDefofJob.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxDefofJob.Location = New System.Drawing.Point(127, 149)
+        Me.textBoxDefofJob.Margin = New System.Windows.Forms.Padding(0)
+        Me.textBoxDefofJob.Multiline = True
+        Me.textBoxDefofJob.Name = "textBoxDefofJob"
+        Me.textBoxDefofJob.Size = New System.Drawing.Size(567, 35)
+        Me.textBoxDefofJob.TabIndex = 18
         '
         'lblDefofJob1
         '
@@ -305,17 +305,17 @@ Partial Class Form1
         Me.lblDefofJob1.TabIndex = 17
         Me.lblDefofJob1.Text = "Define Position:"
         '
-        'textBoxCompany1
+        'textBoxCompany
         '
-        Me.textBoxCompany1.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.textBoxCompany1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxCompany1.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.textBoxCompany1.Location = New System.Drawing.Point(127, 100)
-        Me.textBoxCompany1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.textBoxCompany1.Multiline = True
-        Me.textBoxCompany1.Name = "textBoxCompany1"
-        Me.textBoxCompany1.Size = New System.Drawing.Size(567, 35)
-        Me.textBoxCompany1.TabIndex = 16
+        Me.textBoxCompany.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.textBoxCompany.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.textBoxCompany.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxCompany.Location = New System.Drawing.Point(127, 100)
+        Me.textBoxCompany.Margin = New System.Windows.Forms.Padding(0)
+        Me.textBoxCompany.Multiline = True
+        Me.textBoxCompany.Name = "textBoxCompany"
+        Me.textBoxCompany.Size = New System.Drawing.Size(567, 35)
+        Me.textBoxCompany.TabIndex = 16
         '
         'lblCompany1
         '
@@ -337,17 +337,17 @@ Partial Class Form1
         Me.lblWorkExperience.TabIndex = 14
         Me.lblWorkExperience.Text = "WORK EXPERIENCE"
         '
-        'textBoxPosition1
+        'textBoxPosition
         '
-        Me.textBoxPosition1.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.textBoxPosition1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxPosition1.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.textBoxPosition1.Location = New System.Drawing.Point(127, 51)
-        Me.textBoxPosition1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.textBoxPosition1.Multiline = True
-        Me.textBoxPosition1.Name = "textBoxPosition1"
-        Me.textBoxPosition1.Size = New System.Drawing.Size(567, 35)
-        Me.textBoxPosition1.TabIndex = 3
+        Me.textBoxPosition.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.textBoxPosition.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.textBoxPosition.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxPosition.Location = New System.Drawing.Point(127, 51)
+        Me.textBoxPosition.Margin = New System.Windows.Forms.Padding(0)
+        Me.textBoxPosition.Multiline = True
+        Me.textBoxPosition.Name = "textBoxPosition"
+        Me.textBoxPosition.Size = New System.Drawing.Size(567, 35)
+        Me.textBoxPosition.TabIndex = 3
         '
         'lblPosition1
         '
@@ -380,9 +380,9 @@ Partial Class Form1
         '
         Me.textBoxSkills5.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxSkills5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxSkills5.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxSkills5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxSkills5.Location = New System.Drawing.Point(18, 249)
-        Me.textBoxSkills5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxSkills5.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxSkills5.Multiline = True
         Me.textBoxSkills5.Name = "textBoxSkills5"
         Me.textBoxSkills5.Size = New System.Drawing.Size(534, 35)
@@ -392,9 +392,9 @@ Partial Class Form1
         '
         Me.textBoxSkills4.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxSkills4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxSkills4.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxSkills4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxSkills4.Location = New System.Drawing.Point(18, 200)
-        Me.textBoxSkills4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxSkills4.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxSkills4.Multiline = True
         Me.textBoxSkills4.Name = "textBoxSkills4"
         Me.textBoxSkills4.Size = New System.Drawing.Size(534, 35)
@@ -404,9 +404,9 @@ Partial Class Form1
         '
         Me.textBoxSkills3.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxSkills3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxSkills3.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxSkills3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxSkills3.Location = New System.Drawing.Point(18, 149)
-        Me.textBoxSkills3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxSkills3.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxSkills3.Multiline = True
         Me.textBoxSkills3.Name = "textBoxSkills3"
         Me.textBoxSkills3.Size = New System.Drawing.Size(534, 35)
@@ -416,9 +416,9 @@ Partial Class Form1
         '
         Me.textBoxSkills2.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxSkills2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxSkills2.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxSkills2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxSkills2.Location = New System.Drawing.Point(18, 100)
-        Me.textBoxSkills2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxSkills2.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxSkills2.Multiline = True
         Me.textBoxSkills2.Name = "textBoxSkills2"
         Me.textBoxSkills2.Size = New System.Drawing.Size(534, 35)
@@ -439,9 +439,9 @@ Partial Class Form1
         '
         Me.textBoxSkills1.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxSkills1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxSkills1.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxSkills1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxSkills1.Location = New System.Drawing.Point(18, 51)
-        Me.textBoxSkills1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxSkills1.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxSkills1.Multiline = True
         Me.textBoxSkills1.Name = "textBoxSkills1"
         Me.textBoxSkills1.Size = New System.Drawing.Size(534, 35)
@@ -470,12 +470,12 @@ Partial Class Form1
         '
         Me.textBoxYearGraduated.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxYearGraduated.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxYearGraduated.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxYearGraduated.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxYearGraduated.Location = New System.Drawing.Point(136, 149)
-        Me.textBoxYearGraduated.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxYearGraduated.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxYearGraduated.Multiline = True
         Me.textBoxYearGraduated.Name = "textBoxYearGraduated"
-        Me.textBoxYearGraduated.Size = New System.Drawing.Size(416, 35)
+        Me.textBoxYearGraduated.Size = New System.Drawing.Size(245, 35)
         Me.textBoxYearGraduated.TabIndex = 18
         '
         'lblYearGraduated
@@ -483,17 +483,17 @@ Partial Class Form1
         Me.lblYearGraduated.AutoSize = True
         Me.lblYearGraduated.Location = New System.Drawing.Point(18, 158)
         Me.lblYearGraduated.Name = "lblYearGraduated"
-        Me.lblYearGraduated.Size = New System.Drawing.Size(110, 18)
+        Me.lblYearGraduated.Size = New System.Drawing.Size(101, 18)
         Me.lblYearGraduated.TabIndex = 17
-        Me.lblYearGraduated.Text = "Year Graduated:"
+        Me.lblYearGraduated.Text = "Year(From-To):"
         '
         'textBoxSchool
         '
         Me.textBoxSchool.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxSchool.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxSchool.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxSchool.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxSchool.Location = New System.Drawing.Point(136, 100)
-        Me.textBoxSchool.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxSchool.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxSchool.Multiline = True
         Me.textBoxSchool.Name = "textBoxSchool"
         Me.textBoxSchool.Size = New System.Drawing.Size(416, 35)
@@ -523,9 +523,9 @@ Partial Class Form1
         '
         Me.textBoxCourse.BackColor = System.Drawing.SystemColors.HighlightText
         Me.textBoxCourse.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.textBoxCourse.Font = New System.Drawing.Font("Garamond", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.textBoxCourse.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.textBoxCourse.Location = New System.Drawing.Point(136, 51)
-        Me.textBoxCourse.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.textBoxCourse.Margin = New System.Windows.Forms.Padding(0)
         Me.textBoxCourse.Multiline = True
         Me.textBoxCourse.Name = "textBoxCourse"
         Me.textBoxCourse.Size = New System.Drawing.Size(416, 35)
@@ -584,7 +584,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Beige
-        Me.ClientSize = New System.Drawing.Size(1358, 616)
+        Me.ClientSize = New System.Drawing.Size(1350, 616)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnLoadJsonFile)
         Me.Controls.Add(Me.btnGenerateResume)
@@ -630,13 +630,13 @@ Partial Class Form1
     Friend WithEvents panelWorkExperience As Panel
     Friend WithEvents lblProfile As Label
     Friend WithEvents lblWorkExperience As Label
-    Friend WithEvents textBoxYear1 As TextBox
+    Friend WithEvents textBoxYear As TextBox
     Friend WithEvents lblYear As Label
-    Friend WithEvents textBoxDefofJob1 As TextBox
+    Friend WithEvents textBoxDefofJob As TextBox
     Friend WithEvents lblDefofJob1 As Label
-    Friend WithEvents textBoxCompany1 As TextBox
+    Friend WithEvents textBoxCompany As TextBox
     Friend WithEvents lblCompany1 As Label
-    Friend WithEvents textBoxPosition1 As TextBox
+    Friend WithEvents textBoxPosition As TextBox
     Friend WithEvents lblPosition1 As Label
     Friend WithEvents panelSkills As Panel
     Friend WithEvents textBoxSkills5 As TextBox
