@@ -1,0 +1,28 @@
+{
+    "Image": "GRADPIC.jpg",
+    
+    "FullName": "Kristal Calilung",
+    "Profession": "Software Engineer",
+    "Phone": "0967-298-7283",
+    "Email": "kcalilung514@gmail.com",
+
+    "Header1": "About",
+    "Qualifications": "Software Engineer with thorough hands-on experience in all levels of testing including performance, functional, integration, system, and user acceptance testing.",
+
+    "Header2": "Work Experience",
+    "Position": "Junior Software Engineer",
+    "Company": "RealPro Software (2020-2021)",
+    "JobDescription": "Stored, retrieve, and manipulative data.",
+
+    "Header3": "Skills",
+    "Skill1": "Performance and scalibility optimisation",
+    "Skill2": "SharePoint",
+    "Skill3": "API Design",
+    "Skill4": "Data warehousing and analytics",
+    
+    "Header4": "Education",
+    "Course": "Bachelor of Science in Computer Engineering",
+    "School": "Polytechnic University of the Philippines",
+    "Year": "2015-2019"
+
+}
